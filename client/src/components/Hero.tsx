@@ -1,5 +1,5 @@
 import { useTypingEffect } from "@/hooks/useTypingEffect";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -45,10 +45,19 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animate-delay-600">
             <Button
-              onClick={() => scrollToSection("#projects")}
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
+              onClick={() => {
+                // Create a link element and trigger download
+                const link = document.createElement('a');
+                link.href = '/resume-bubai-ghosh.pdf';
+                link.download = 'Bubai-Ghosh-Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
+              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
             >
-              View My Work
+              <Download className="w-4 h-4" />
+              Download Resume
             </Button>
             <Button
               variant="outline"
