@@ -39,7 +39,7 @@ export default function Hero() {
           </div>
 
           <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in-up animate-delay-300">
-            Passionate software developer with 1+ years of experience at Boeing India.
+            Passionate software developer with 2 years of experience at Boeing India.
             Specialized in building scalable backend systems with Java, Spring Boot, and cloud technologies.
           </p>
 
@@ -71,7 +71,7 @@ export default function Hero() {
 
           <div className="mt-12 flex justify-center space-x-6 animate-fade-in-up animate-delay-900">
             <a
-              href="https://github.com/bubai-ghosh"
+              href="https://github.com/bghosh482"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-600 hover:text-blue-600 text-2xl transition-colors duration-200"
@@ -79,7 +79,7 @@ export default function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/bubai-ghosh"
+              href="https://www.linkedin.com/in/bubaigh9/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-600 hover:text-blue-600 text-2xl transition-colors duration-200"
