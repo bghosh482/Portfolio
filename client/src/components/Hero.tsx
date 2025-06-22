@@ -48,8 +48,8 @@ export default function Hero() {
               onClick={() => {
                 // Create a link element and trigger download
                 const link = document.createElement('a');
-                link.href = '/resume-bubai-ghosh.pdf';
-                link.download = 'Bubai-Ghosh-Resume.pdf';
+                link.href = '/Bubai_Ghosh_Resume.pdf';
+                link.download = 'Bubai_Ghosh_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
