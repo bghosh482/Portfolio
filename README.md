@@ -208,9 +208,6 @@ Runs TypeScript compiler to check for type errors without generating files.
 5. Push: `git push origin feature-name`
 6. Submit a pull request
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
